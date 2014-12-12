@@ -1,7 +1,7 @@
 
-CXX := g++
+CXX := CC
 CPPFLAGS :=
-CXXFLAGS := -pedantic -Wall -Wextra -Wfatal-errors -O3
+CXXFLAGS := -pedantic -Wall -Wextra -Wno-long-long -Wfatal-errors -O3
 LDFLAGS :=
 LIBS := -lhdf5
 
